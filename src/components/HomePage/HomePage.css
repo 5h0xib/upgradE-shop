@@ -1,0 +1,16 @@
+.background-container {
+    background-image: url('./background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; /* Ensure background covers the entire viewport height */
+}
+
+.animated-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+  }

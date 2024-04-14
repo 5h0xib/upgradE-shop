@@ -1,0 +1,83 @@
+.product-container {
+    max-width: 80% !important;
+    margin: 50px auto !important;
+    box-shadow: 0 0 15px rgba(4, 0, 0, 1) !important;
+    transition: box-shadow 0.2s ease, transform 0.2s ease !important;
+}
+
+.product-container:hover {
+    box-shadow: 0 0 50px rgb(0, 0, 0) !important;
+    transform: scale(0.97) !important;
+  }
+
+.full-page {
+    background-color: rgb(177, 128, 255) !important;
+}
+
+.product-description {
+    margin-top: 60px !important;
+    font-size: 30px !important;
+    text-align: left !important;
+}
+
+.product-category {
+    font-size: 20px !important;
+    text-align: left !important;
+}
+
+.product-manufacturer {
+    margin-top: 20px !important;
+    margin-bottom: 60px !important;
+    font-size: 20px !important;
+    text-align: left !important;
+}
+
+.product-stock {
+    font-size: 15px !important;
+    text-align: left !important;
+}
+
+.product-price {
+    text-align: left !important;
+}
+
+.place-order-button {
+    margin-top: 30px !important;
+    background-color: rgb(177, 128, 255);
+    border-radius: 50px !important;
+}
+
+.group-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decrement-button {
+    border-radius: 50px !important;
+    height: 40px !important;
+    padding: 1px !important;
+    margin-right: 20px !important;
+    font-size: 20px !important;
+    background-color: #333333 !important;
+}
+
+.increment-button {
+    border-radius: 10px !important;
+    height: 40px !important;
+    padding: 1px !important;
+    margin-left: 20px !important;
+    font-size: 20px !important;
+    background-color: #333333 !important;
+}
+
+.quantity {
+    font-size: 15px;
+    text-align: left !important;
+}

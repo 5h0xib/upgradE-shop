@@ -1,0 +1,38 @@
+.login-input {
+    margin-top: 10px !important;
+}
+
+.paperStyle {
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: 'rgba(255, 255, 255, 0.9)';
+}
+
+.avatarStyle {
+    background-color: rgb(177, 128, 255) !important;
+    margin-right: 20px;
+}
+
+.btnstyle {
+    margin: 10px 0;
+    background-color: #333333 !important;
+    color: rgb(177, 128, 255) !important;
+    padding: 10px !important;
+    font-size: 20px !important;
+    border-radius: 50px;
+}
+
+.login-page-container {
+    /* background-image: url('./background.jpg') !important; */
+    background-color: rgb(177, 128, 255) !important;
+    background-size: cover;
+    min-height: 92vh;
+    padding: 30px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
